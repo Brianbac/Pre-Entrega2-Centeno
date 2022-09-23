@@ -1,0 +1,185 @@
+/* CSS GLOBAL */
+/*------ HTML - INDEX ----------*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+}
+
+body {
+    background-color: black;
+}
+
+/*-------Logo------- */
+.logo img {
+    width: 130px;
+    height: 98px;
+    margin-top: 30px;
+    margin-inline-start: 150px;
+}
+
+ /* ----------Menu------------- */
+ .navbar{
+    background-color: rgba(255, 255, 255, 0.895);
+    text-align: center;
+    border-radius: 10px;
+    padding: 5px;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 10px;
+    flex-wrap: wrap;
+}
+
+.navbar ul li a {
+    margin: 20px;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: black;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.navbar ul li a:hover {
+    background-color: black;
+    border-radius: 2px;
+    padding: 3px;
+    color: white;
+}
+
+/* -------Contenido--------*/
+
+.content-contenido h1 {
+    color: rgba(255, 255, 255, 0.917);
+    font-size: 25px;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-family: 'Silkscreen', cursive;
+}
+.content-contenido p {
+    color: rgba(255, 255, 255, 0.858);
+    text-align: center;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 16px;
+    padding: 10px;
+    margin-left: 180px;
+    margin-right: 180px;
+    background-color: rgba(173, 173, 174, 0.128);
+    border-radius: 10px;
+}
+/*--------- Imagenes de muestra */
+.imagenes-ilustrativas img {
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    background-size: cover ;
+}
+
+/* -------Footer------- */
+
+.footer-pagina {
+    bottom: 0px;
+    position:fixed;
+    text-align: center;
+    width: 100%;
+}
+.footer-pagina h2 {
+    color: white;
+    font-size: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    background-color:rgba(173, 173, 174, 0.128);
+}
+
+/* -------- HTML - CLIENTES --------*/
+
+.main h1 {
+    color: white;
+    text-align: center;
+    margin: 20px;
+    font-family: 'Silkscreen', cursive;
+    font-size: 25px;
+}
+
+/* ------- imagenes body --------*/
+
+.imageslogos img {
+    margin-left: 800px;
+}
+
+/* ------------- HTML - SERVICIOS -----------*/
+/* ------- main ---------*/
+.mainservicios h1 {
+    color: white;
+    text-align: center;
+    margin: 20px;
+    font-family: 'Silkscreen', cursive;
+    font-size: 25px;
+}
+
+.mainservicios p {
+    color: white;
+    text-align: center;
+}
+.titulovideo {
+    color: white;
+    text-align: center;
+    margin: 20px;
+    font-family: 'Silkscreen', cursive;
+    font-size: 12px;
+}
+
+.mainservicios p{
+    color: rgba(255, 255, 255, 0.858);
+    text-align: center;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 16px;
+    padding: 10px;
+    margin-left: 180px;
+    margin-right: 180px;
+    background-color: rgba(173, 173, 174, 0.128);
+    border-radius: 10px;
+}
+/* ----------- video ---------*/
+.video {
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+
+/*-----------HTML - NOSOTROS ----------*/
+/* main */
+.main-nosotros h1 {
+    color: white;
+    text-align: center;
+    margin: 20px;
+    font-family: 'Silkscreen', cursive;
+    font-size: 25px;
+}
+
+.main-nosotros p {
+    color: rgba(255, 255, 255, 0.858);
+    text-align: center;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 16px;
+    padding: 10px;
+    margin-left: 180px;
+    margin-right: 180px;
+    background-color: rgba(173, 173, 174, 0.128);
+    border-radius: 10px;
+}
+
+/*--------- HTML - CONTACTO -----------*/
+
+.mapa {
+    margin-top: 30px;
+    text-align: center;
+}
+
+.main-contacto {
+    color: white;
+    text-align: center;
+    margin-top: 20px;
+    font-family: 'Silkscreen', cursive;
+    font-size: 13px;
+}
